@@ -19,5 +19,4 @@ public interface CrudRepository<T, ID extends Serializable>
 
     boolean exists(ID primaryKey);  //6
 
-    // … more functionality omitted.
 }
